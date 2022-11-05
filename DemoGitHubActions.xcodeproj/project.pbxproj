@@ -150,7 +150,6 @@
 					};
 					6A319EDF291641A800801A8A = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 6A319EC9291641A700801A8A;
 					};
 				};
 			};
@@ -418,7 +417,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD9M264MPY;
@@ -430,7 +428,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGitHubActions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoGitHubActions";
 			};
 			name = Debug;
 		};
@@ -438,7 +435,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD9M264MPY;
@@ -450,7 +446,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoGitHubActions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoGitHubActions";
 			};
 			name = Release;
 		};
