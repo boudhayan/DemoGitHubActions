@@ -14,7 +14,7 @@
 		6A319ED7291641A800801A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A319ED6291641A800801A8A /* Assets.xcassets */; };
 		6A319EDA291641A800801A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A319ED8291641A800801A8A /* LaunchScreen.storyboard */; };
 		6A319EE5291641A800801A8A /* DemoGitHubActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A319EE4291641A800801A8A /* DemoGitHubActionsTests.swift */; };
-		6A7F8E3C29280BDB0056327B /* Dangerfile in Resources */ = {isa = PBXBuildFile; fileRef = 6A7F8E3B29280BDB0056327B /* Dangerfile */; };
+		6A7F8E3E292886790056327B /* Dangerfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7F8E3D292886790056327B /* Dangerfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		6A319EDB291641A800801A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A319EE0291641A800801A8A /* DemoGitHubActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGitHubActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A319EE4291641A800801A8A /* DemoGitHubActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitHubActionsTests.swift; sourceTree = "<group>"; };
-		6A7F8E3B29280BDB0056327B /* Dangerfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dangerfile; sourceTree = "<group>"; };
+		6A7F8E3D292886790056327B /* Dangerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dangerfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		6A319EC1291641A700801A8A = {
 			isa = PBXGroup;
 			children = (
-				6A7F8E3B29280BDB0056327B /* Dangerfile */,
+				6A7F8E3D292886790056327B /* Dangerfile.swift */,
 				6A319ECC291641A700801A8A /* DemoGitHubActions */,
 				6A319EE3291641A800801A8A /* DemoGitHubActionsTests */,
 				6A319ECB291641A700801A8A /* Products */,
@@ -183,7 +183,6 @@
 				6A319EDA291641A800801A8A /* LaunchScreen.storyboard in Resources */,
 				6A319ED7291641A800801A8A /* Assets.xcassets in Resources */,
 				6A319ED5291641A700801A8A /* Main.storyboard in Resources */,
-				6A7F8E3C29280BDB0056327B /* Dangerfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7F8E3E292886790056327B /* Dangerfile.swift in Sources */,
 				6A319ED2291641A700801A8A /* ViewController.swift in Sources */,
 				6A319ECE291641A700801A8A /* AppDelegate.swift in Sources */,
 				6A319ED0291641A700801A8A /* SceneDelegate.swift in Sources */,
